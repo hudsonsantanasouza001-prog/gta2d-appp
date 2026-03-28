@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA Mobile Ultra Realista - Protótipo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #333;
+        }
+        h2 {
+            color: #ff4500;
+            margin-top: 0;
+        }
+        ul, li {
+            margin-left: 20px;
+        }
+        .city, .vehicles, .player, .police, .npc, .economy, .events, .audio, .multiplayer {
+            margin-bottom: 15px;
+        }
+        .subsection {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>GTA Mobile Ultra Realista - Protótipo</header>
+
+<section class="city">
+    <h2>Cidades e Interior</h2>
+    <ul>
+        <li><strong>Cidade 1: Centro Comercial</strong>
+            <ul class="subsection">
+                <li>Banco Principal</li>
+                <li>Lojas</li>
+                <li>Favelas (4) → NPCs traficantes, lojas de rua, eventos aleatórios</li>
+            </ul>
+        </li>
+        <li><strong>Cidade 2: Área Industrial</strong>
+            <ul class="subsection">
+                <li>Postos de Gasolina</li>
+                <li>Oficinas</li>
+            </ul>
+        </li>
+        <li><strong>Cidade 3: Área Residencial</strong>
+            <ul class="subsection">
+                <li>Delegacia</li>
+                <li>Escolas</li>
+            </ul>
+        </li>
+        <li><strong>Cidade 4: Porto</strong>
+            <ul class="subsection">
+                <li>Marina</li>
+                <li>Transporte Marítimo</li>
+            </ul>
+        </li>
+        <li><strong>Cidade 5: Aeroporto</strong>
+            <ul class="subsection">
+                <li>Hangar de Helicópteros</li>
+                <li>Aviões</li>
+            </ul>
+        </li>
+        <li><strong>Interior</strong>
+            <ul class="subsection">
+                <li>Estradas Rurais</li>
+                <li>Fazendas</li>
+                <li>Trilhas Off-Road</li>
+                <li>Pequenas Vilas</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section class="vehicles">
+    <h2>Veículos e Transporte</h2>
+    <ul>
+        <li>Motos XT660 (Modelos X e R 2004-2020)</li>
+        <li>Carros 2000-2022: Corolla, Skyline, antigos, Tiger</li>
+        <li>Customização:
+            <ul class="subsection">
+                <li>Motor</li>
+                <li>Nitro</li>
+                <li>Escapamento</li>
+                <li>Suspensão</li>
+                <li>Blindagem</li>
+                <li>Pintura</li>
+                <li>Rodas</li>
+                <li>Frente</li>
+                <li>Placas</li>
+            </ul>
+        </li>
+        <li>Oficina → Tuning mecânico detalhado</li>
+        <li>Transporte Público → Ônibus, metrô, táxis</li>
+    </ul>
+</section>
+
+<section class="player">
+    <h2>Mecânicas do Jogador</h2>
+    <ul>
+        <li>Vida e Energia → Fome</li>
+        <li>Inventário Avançado → Armas, itens, drogas fictícias</li>
+        <li>Sistema de Moral e Reputação</li>
+        <li>XP e Perks → Força, Furtividade, Mira</li>
+        <li>Roubo e Heists
+            <ul class="subsection">
+                <li>Bancos: 100k</li>
+                <li>Casas: 30k</li>
+                <li>Lojas: 20k</li>
+                <li>Heists complexos → Planejamento, rotas alternativas</li>
+            </ul>
+        </li>
+        <li>Uso de Drogas Fictícias → Efeitos simulados</li>
+    </ul>
+</section>
+
+<section class="police">
+    <h2>Polícia</h2>
+    <ul>
+        <li>NPCs e Blitz → IA avançada</li>
+        <li>Troca de Tiros, Algemar, Multas, Fiança</li>
+        <li>Rastreamento de Modificações Ilegais → Motor, nitro, escapamento, placas, frente</li>
+        <li>Rádio da Polícia → Localização do jogador</li>
+        <li>Eventos de Perseguição → Nível de procurado</li>
+    </ul>
+</section>
+
+<section class="npc">
+    <h2>NPCs</h2>
+    <ul>
+        <li>Rotinas Diárias → Trabalho, lazer, transporte, comércio</li>
+        <li>Reações → Crimes e tiroteios</li>
+        <li>Interações → Com jogador e entre NPCs</li>
+    </ul>
+</section>
+
+<section class="economy">
+    <h2>Economia</h2>
+    <ul>
+        <li>Dinheiro Inicial → 2000 reais</li>
+        <li>Preços Realistas → Veículos, combustível, itens, imóveis</li>
+        <li>Sistema Dinâmico → Oferta, demanda, inflação</li>
+        <li>Contas Bancárias → Transferências, empréstimos, investimentos</li>
+    </ul>
+</section>
+
+<section class="events">
+    <h2>Eventos e Clima</h2>
+    <ul>
+        <li>Clima Dinâmico → Sol, chuva, neblina, tempestades, enchentes</li>
+        <li>Eventos Aleatórios → Incêndios, acidentes, festivais, emergências</li>
+        <li>Ciclo Dia/Noite → Afeta NPCs e trânsito</li>
+    </ul>
+</section>
+
+<section class="audio">
+    <h2>Áudio e Imersão</h2>
+    <ul>
+        <li>Rádio nos Veículos</li>
+        <li>Sirenes e Efeitos Climáticos</li>
+        <li>Vozes NPCs → Sotaque baiano</li>
+        <li>Efeitos Sonoros → Distância e eco</li>
+    </ul>
+</section>
+
+<section class="multiplayer">
+    <h2>Multiplayer</h2>
+    <ul>
+        <li>Interações PvP e Cooperação</li>
+        <li>Comércio, Facções e Gangues</li>
+        <li>Ranking Global e Local → Recompensas</li>
+    </ul>
+</section>
+
+</body>
+</html>
